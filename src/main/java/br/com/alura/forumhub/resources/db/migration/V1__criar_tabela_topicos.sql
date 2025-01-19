@@ -1,0 +1,6 @@
+CREATE TABLE topicos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL
+);
